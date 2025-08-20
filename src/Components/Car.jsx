@@ -84,18 +84,12 @@ export default function Car() {
                             background:
                                 "radial-gradient(elipis at center, rgba(255,255,255,0.9) 0%, transparent 60%)"
                         }}></span>
-
-
-                    {/* car image */}
                     <img
                         className="w-[500px] h-auto rounded-full transition-all duration-500 z-10"
                         src={CarsData[selectedIndex].image}
                         alt={CarsData[selectedIndex].name}
                     />
                 </div>
-
-
-
                 <div className='-mt-35 w-100'>
                     <p className='text-white text-[15px] ml-40 '>
                         form of a document or a typeface without relying on meaningful content.
