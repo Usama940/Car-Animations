@@ -82,7 +82,7 @@ export default function Car() {
                     <span className="absolute w-[1200px] h-[900px] z-0 rounded-full"
                         style={{
                             background:
-                                "radial-gradient(elipis at center, rgba(255,255,255,0.9) 0%, transparent 60%)"
+                                "radial-gradient(ellipse at center, rgba(255,255,255,0.9) 0%, transparent 60%)"
                         }}></span>
                     <img
                         className="w-[500px] h-auto rounded-full transition-all duration-500 z-10"
